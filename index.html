@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Adi | Portfolio</title>
+  <meta name="description" content="Portfolio of Mohammad Adi — aspiring web and game developer with experience in React, Unity, C# and machine learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ICON SPRITE (inline SVG, no JavaScript) -->
+  <svg class="pf-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-gamepad" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M9 13a4.5 4.5 0 0 0 3-4"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M12 13h4"/><path d="M12 18h6a2 2 0 0 1 2 2v1"/><path d="M12 8h8"/><path d="M16 8V5a2 2 0 0 1 2-2"/><circle cx="16" cy="13" r=".5"/><circle cx="18" cy="3" r=".5"/><circle cx="20" cy="21" r=".5"/><circle cx="20" cy="8" r=".5"/></symbol>
+    <symbol id="i-pen-tool" viewBox="0 0 24 24"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"/><path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"/><path d="m2.3 2.3 7.286 7.286"/><circle cx="11" cy="11" r="2"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-boxes" viewBox="0 0 24 24"><path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"/><path d="m7 16.5-4.74-2.85"/><path d="m7 16.5 5-3"/><path d="M7 16.5v5.17"/><path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"/><path d="m17 16.5-5-3"/><path d="m17 16.5 4.74-2.85"/><path d="M17 16.5v5.17"/><path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"/><path d="M12 8 7.26 5.15"/><path d="m12 8 4.74-2.85"/><path d="M12 13.5V8"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.21.67.8.56A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></symbol>
+  </svg>
+
+  <div class="pf-shell">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="pf-sidebar">
+      <div class="pf-brand">
+        <span class="pf-brand-dot"></span>
+        <span class="pf-brand-text pf-mono"><b>Mohammad Adi</b>Portfolio</span>
+      </div>
+
+      <div class="pf-hierarchy-label pf-mono">▾ Portfolio.scene</div>
+      <nav class="pf-navlist" aria-label="Main navigation">
+        <a class="pf-navitem pf-mono" href="#home"><svg class="icon" width="13" height="13" aria-hidden="true"><use href="#i-chevron"/></svg>Home</a>
+        <a class="pf-navitem pf-mono" href="#about"><svg class="icon" width="13" height="13" aria-hidden="true"><use href="#i-chevron"/></svg>About</a>
+        <a class="pf-navitem pf-mono" href="#skills"><svg class="icon" width="13" height="13" aria-hidden="true"><use href="#i-chevron"/></svg>Skills</a>
+        <a class="pf-navitem pf-mono" href="#projects"><svg class="icon" width="13" height="13" aria-hidden="true"><use href="#i-chevron"/></svg>Projects</a>
+        <a class="pf-navitem pf-mono" href="#contact"><svg class="icon" width="13" height="13" aria-hidden="true"><use href="#i-chevron"/></svg>Contact</a>
+      </nav>
+
+      <div class="pf-sidebar-foot">
+        <div class="pf-mono">Etawah, U.P. · India</div>
+        <div class="pf-sidebar-socials">
+          <a class="pf-icon-btn" href="https://github.com/Adi432144" target="_blank" rel="noreferrer" aria-label="GitHub profile"><svg class="icon icon-fill" width="15" height="15" aria-hidden="true"><use href="#i-github"/></svg></a>
+          <a class="pf-icon-btn" href="https://linkedin.com/in/mohammad-adi-748109306" target="_blank" rel="noreferrer" aria-label="LinkedIn profile"><svg class="icon icon-fill" width="15" height="15" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+          <a class="pf-icon-btn" href="mailto:mdadiprivate31@gmail.com" aria-label="Send email"><svg class="icon" width="15" height="15" aria-hidden="true"><use href="#i-mail"/></svg></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="pf-main">
+
+      <!-- 1. HERO / HOME -->
+      <section id="home" class="pf-hero">
+        <div class="pf-eyebrow pf-mono"><svg class="icon" width="14" height="14" aria-hidden="true"><use href="#i-terminal"/></svg> inspector — GameObject</div>
+
+        <div class="pf-inspector">
+          <div class="pf-inspector-bar pf-mono">
+            <span class="pf-inspector-dots"><span></span><span></span><span></span></span>
+            Inspector · MohammadAdi.prefab
+          </div>
+
+          <div class="pf-inspector-body">
+            <h1 class="pf-name">Mohammad Adi</h1>
+            <p class="pf-role">
+              <b>Aspiring Developer</b> — Web &amp; Game Development, with a growing focus on Machine Learning
+            </p>
+
+            <div class="pf-field-row">
+              <span class="pf-field-label pf-mono">TRANSFORM</span>
+              <span class="pf-field-value"><svg class="icon" width="13" height="13" aria-hidden="true"><use href="#i-map-pin"/></svg> Etawah, Uttar Pradesh, India</span>
+            </div>
+            <div class="pf-field-row">
+              <span class="pf-field-label pf-mono">TAGS</span>
+              <div class="pf-component-row"><span class="pf-chip">Web Dev</span><span class="pf-chip">Game Dev</span><span class="pf-chip">Machine Learning</span><span class="pf-chip">Narrative Design</span></div>
+            </div>
+            <div class="pf-field-row">
+              <span class="pf-field-label pf-mono">COMPONENTS</span>
+              <div class="pf-component-row">
+                <span class="pf-chip"><svg class="icon" width="11" height="11" style="margin-right:4px;vertical-align:-2px" aria-hidden="true"><use href="#i-code"/></svg>C# / C / C++</span>
+                <span class="pf-chip"><svg class="icon" width="11" height="11" style="margin-right:4px;vertical-align:-2px" aria-hidden="true"><use href="#i-gamepad"/></svg>Unity Engine</span>
+                <span class="pf-chip"><svg class="icon" width="11" height="11" style="margin-right:4px;vertical-align:-2px" aria-hidden="true"><use href="#i-brain"/></svg>Python / SQL</span>
+                <span class="pf-chip"><svg class="icon" width="11" height="11" style="margin-right:4px;vertical-align:-2px" aria-hidden="true"><use href="#i-pen-tool"/></svg>Creative Writing</span>
+              </div>
+            </div>
+
+            <div class="pf-terminal" aria-label="Status">
+              <div class="pf-terminal-line">&gt; profile.init("Mohammad Adi")</div>
+              <div class="pf-terminal-line">&gt; loading modules: web, unity, ml...</div>
+              <div class="pf-terminal-line">&gt; status: available for internships &amp; entry-level roles<span class="pf-cursor"></span></div>
+            </div>
+
+            <div class="pf-cta-row">
+              <a class="pf-btn pf-btn-primary" href="#contact"><svg class="icon" width="15" height="15" aria-hidden="true"><use href="#i-mail"/></svg> Get in touch</a>
+              <a class="pf-btn pf-btn-ghost" href="#projects"><svg class="icon" width="15" height="15" aria-hidden="true"><use href="#i-boxes"/></svg> See projects</a>
+              <a class="pf-btn pf-btn-ghost" href="https://github.com/Adi432144" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="15" height="15" aria-hidden="true"><use href="#i-github"/></svg> View GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. ABOUT ME -->
+      <section id="about" class="pf-section">
+        <div class="pf-reveal pf-section-head">
+          <span class="pf-section-tag pf-mono">02</span>
+          <h2 class="pf-section-title">About Me</h2>
+        </div>
+
+        <p class="pf-reveal pf-about-text">
+          I'm Mohammad Adi, a Computer Science Engineering student from Etawah, Uttar Pradesh. I enjoy building
+          things across web development, game development, and machine learning — from Unity AR/VR prototypes
+          to a full-stack AI meeting platform. I also write fiction, which shapes how I think about narrative
+          design and user experience. I'm looking for internships and entry-level roles where I can keep learning
+          and ship real products.
+        </p>
+
+        <h3 class="pf-subhead"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-pen-tool"/></svg> Career Interests</h3>
+        <div class="pf-reveal pf-skill-chips"><span class="pf-chip">Web Development</span><span class="pf-chip">Game Development</span><span class="pf-chip">Machine Learning</span><span class="pf-chip">Narrative Design</span><span class="pf-chip">Prompt Engineering</span></div>
+
+        <h3 class="pf-subhead"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-grad"/></svg> Education</h3>
+        <div class="pf-timeline">
+          <div class="pf-reveal pf-timeline-item">
+            <div class="pf-timeline-dot"></div>
+            <h4 class="pf-edu-degree">B.Tech in Computer Science Engineering</h4>
+            <div class="pf-edu-school">Integral University, Lucknow</div>
+            <div class="pf-edu-meta pf-mono">
+              <span><svg class="icon" width="12" height="12" style="vertical-align:-2px;margin-right:4px" aria-hidden="true"><use href="#i-grad"/></svg>08/2022 – 07/2026</span>
+              <span>GPA: 7.9 / 10</span>
+            </div>
+          </div>
+
+          <div class="pf-reveal pf-timeline-item">
+            <div class="pf-timeline-dot"></div>
+            <h4 class="pf-edu-degree">Intermediate (Class XII)</h4>
+            <div class="pf-edu-school">St. Mary Inter College, Etawah, India</div>
+            <div class="pf-edu-meta pf-mono">
+              <span><svg class="icon" width="12" height="12" style="vertical-align:-2px;margin-right:4px" aria-hidden="true"><use href="#i-grad"/></svg>01/2021 – 12/2021</span>
+              <span>GPA: 7.7</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="pf-subhead"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-terminal"/></svg> Experience</h3>
+        <article class="pf-reveal pf-exp-card">
+          <div class="pf-exp-head">
+            <span><span class="pf-dollar">$</span>./run experience/ebts-unity-internship.sh</span>
+            <span class="pf-exp-period">06/2024 – 07/2024</span>
+          </div>
+          <div class="pf-exp-body">
+            <h4 class="pf-exp-role">Unity Game Engine Intern</h4>
+            <div class="pf-exp-org">EBTS Organization</div>
+            <ul class="pf-exp-list"><li>Developed 3+ interactive AR/VR prototypes in Unity, focused on asset management and C# scripting.</li><li>Applied scene setup and optimization techniques to reduce prototype load times during testing.</li></ul>
+          </div>
+        </article>
+
+        <article class="pf-reveal pf-exp-card">
+          <div class="pf-exp-head">
+            <span><span class="pf-dollar">$</span>./run experience/etrain-ml-internship.sh</span>
+            <span class="pf-exp-period">04/2025 – 05/2025</span>
+          </div>
+          <div class="pf-exp-body">
+            <h4 class="pf-exp-role">Machine Learning Intern</h4>
+            <div class="pf-exp-org">E-Train</div>
+            <ul class="pf-exp-list"><li>Collaborated in a 5-member team to build a predictive model using diverse real-world datasets, improving data processing efficiency by approximately 20%.</li><li>Applied feature analysis and model evaluation to address technical challenges and deliver results to stakeholders.</li></ul>
+          </div>
+        </article>
+
+        <article class="pf-reveal pf-exp-card">
+          <div class="pf-exp-head">
+            <span><span class="pf-dollar">$</span>./run experience/zidio-web-dev-internship.sh</span>
+            <span class="pf-exp-period">06/06/2026 – 06/07/2026</span>
+          </div>
+          <div class="pf-exp-body">
+            <h4 class="pf-exp-role">Web Development Intern</h4>
+            <div class="pf-exp-org">Zidio Development</div>
+            <ul class="pf-exp-list"><li>Completed a hands-on web development training and internship program with Zidio Development.</li><li>Built IntellMeet, an AI-powered MERN collaboration platform, as the internship project — covering real-time video via WebRTC, an AI transcription/summary layer, and a full backend.</li></ul>
+          </div>
+        </article>
+      </section>
+
+      <!-- 3. SKILLS -->
+      <section id="skills" class="pf-section">
+        <div class="pf-reveal pf-section-head">
+          <span class="pf-section-tag pf-mono">03</span>
+          <h2 class="pf-section-title">Skills</h2>
+        </div>
+
+        <div class="pf-skills-grid">
+          <div class="pf-reveal">
+            <h3 class="pf-skill-group-head"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-code"/></svg> Languages</h3>
+            <div class="pf-skill-chips"><span class="pf-chip">C</span><span class="pf-chip">C++</span><span class="pf-chip">C#</span><span class="pf-chip">Python</span><span class="pf-chip">JavaScript</span><span class="pf-chip">SQL</span></div>
+          </div>
+
+          <div class="pf-reveal">
+            <h3 class="pf-skill-group-head"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-gamepad"/></svg> Frameworks &amp; Engines</h3>
+            <div class="pf-skill-chips"><span class="pf-chip">Unity Engine</span><span class="pf-chip">.NET MAUI</span></div>
+          </div>
+
+          <div class="pf-reveal">
+            <h3 class="pf-skill-group-head"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-globe"/></svg> Web</h3>
+            <div class="pf-skill-chips"><span class="pf-chip">HTML5</span><span class="pf-chip">CSS3</span><span class="pf-chip">Bootstrap</span><span class="pf-chip">React JS</span></div>
+          </div>
+
+          <div class="pf-reveal">
+            <h3 class="pf-skill-group-head"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-wrench"/></svg> Tools</h3>
+            <div class="pf-skill-chips"><span class="pf-chip">Git</span><span class="pf-chip">GitHub</span><span class="pf-chip">VS Code</span><span class="pf-chip">Jupyter</span><span class="pf-chip">Pandas</span></div>
+          </div>
+
+          <div class="pf-reveal">
+            <h3 class="pf-skill-group-head"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-users"/></svg> Soft Skills</h3>
+            <div class="pf-skill-chips"><span class="pf-chip">Creative Writing</span><span class="pf-chip">Critical Reading</span><span class="pf-chip">Narrative Design</span><span class="pf-chip">Prompt Engineering</span></div>
+          </div>
+        </div>
+
+        <div class="pf-reveal pf-lang-block">
+          <h3 class="pf-skill-group-head"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-globe"/></svg> Spoken Languages</h3>
+          <div class="pf-lang-row">
+            <span class="pf-lang-name">Hindi</span>
+            <div class="pf-lang-track"><div class="pf-lang-fill" style="width:100%"></div></div>
+            <span class="pf-lang-level pf-mono">Fluent</span>
+          </div>
+
+          <div class="pf-lang-row">
+            <span class="pf-lang-name">English</span>
+            <div class="pf-lang-track"><div class="pf-lang-fill" style="width:62%"></div></div>
+            <span class="pf-lang-level pf-mono">Intermediate</span>
+          </div>
+
+          <div class="pf-lang-row">
+            <span class="pf-lang-name">Japanese</span>
+            <div class="pf-lang-track"><div class="pf-lang-fill" style="width:28%"></div></div>
+            <span class="pf-lang-level pf-mono">Beginner</span>
+          </div>
+        </div>
+
+        <h3 class="pf-subhead"><svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-award"/></svg> Certifications</h3>
+        <a class="pf-reveal pf-cert-repo-link" href="https://github.com/Adi432144/CERTIFICATE" target="_blank" rel="noreferrer">
+          <svg class="icon icon-fill" width="16" height="16" aria-hidden="true"><use href="#i-github"/></svg>
+          <span>
+            <span class="pf-cert-repo-title">View verified proofs on GitHub</span>
+            <span class="pf-cert-repo-sub pf-mono">github.com/Adi432144/CERTIFICATE</span>
+          </span>
+          <svg class="icon pf-cert-repo-arrow" width="14" height="14" aria-hidden="true"><use href="#i-external"/></svg>
+        </a>
+        <div class="pf-cert-grid">
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">RPG in Unity</div><div class="pf-cert-issuer">Brackeys / Cursa</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Start Writing Fiction</div><div class="pf-cert-issuer">The Open University</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Creative Writing</div><div class="pf-cert-issuer">The Open University</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Problem Solving</div><div class="pf-cert-issuer">HackerRank</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Data Structures</div><div class="pf-cert-issuer">Great Learning</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Unity VR/AR</div><div class="pf-cert-issuer">EBTS</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Front End HTML</div><div class="pf-cert-issuer">Great Learning</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Web Design</div><div class="pf-cert-issuer">Great Learning</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Business Intelligence</div><div class="pf-cert-issuer">IBM</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Predictive Analysis</div><div class="pf-cert-issuer">IBM</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Python Basic</div><div class="pf-cert-issuer">HackerRank</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">JavaScript Basic</div><div class="pf-cert-issuer">HackerRank</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">SQL Basic</div><div class="pf-cert-issuer">HackerRank</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Intro to Generative AI</div><div class="pf-cert-issuer">UpGrad</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Advanced Prompt Engineering</div><div class="pf-cert-issuer">UpGrad</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">ReactJS for Beginners</div><div class="pf-cert-issuer">Simplilearn</div></div></div>
+          <div class="pf-reveal pf-cert-card"><svg class="icon" width="17" height="17" aria-hidden="true"><use href="#i-award"/></svg><div><div class="pf-cert-name">Advanced Git Concepts</div><div class="pf-cert-issuer">Simplilearn</div></div></div>
+        </div>
+      </section>
+
+      <!-- 4. PROJECTS -->
+      <section id="projects" class="pf-section">
+        <div class="pf-reveal pf-section-head">
+          <span class="pf-section-tag pf-mono">04</span>
+          <h2 class="pf-section-title">Projects</h2>
+        </div>
+
+        <div class="pf-project-grid">
+          <article class="pf-reveal pf-project-card" style="--card-accent:#5EEAD4">
+            <div class="pf-project-top"></div>
+            <div class="pf-project-body">
+              <div class="pf-project-icon"><svg class="icon" width="19" height="19" aria-hidden="true"><use href="#i-brain"/></svg></div>
+              <div class="pf-project-tag pf-mono">MERN / AI · ZIDIO INTERNSHIP</div>
+              <h3 class="pf-project-name">IntellMeet — AI Collaboration Platform</h3>
+              <ul class="pf-project-desc"><li>Built as the capstone project for a web development internship at Zidio Development.</li><li>An enterprise-oriented meeting platform on the MERN stack with real-time HD video via WebRTC and Socket.IO signaling.</li><li>Layered in an AI intelligence pipeline: Whisper transcription plus GPT-4o / Mistral summaries, action-item extraction, and engagement scoring.</li></ul>
+              <div class="pf-project-stack"><span class="pf-chip">React 18</span><span class="pf-chip">Node.js</span><span class="pf-chip">Socket.IO</span><span class="pf-chip">WebRTC</span><span class="pf-chip">SQLite</span><span class="pf-chip">OpenAI API</span></div>
+              <div class="pf-project-links">
+                <a class="pf-project-link" href="https://github.com/Adi432144" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+                <a class="pf-project-link pf-project-link-demo" href="https://intellmeet-ai-powered-enterprise.onrender.com/" target="_blank" rel="noreferrer"><svg class="icon" width="14" height="14" aria-hidden="true"><use href="#i-external"/></svg> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-reveal pf-project-card" style="--card-accent:#7DD3FC">
+            <div class="pf-project-top"></div>
+            <div class="pf-project-body">
+              <div class="pf-project-icon"><svg class="icon" width="19" height="19" aria-hidden="true"><use href="#i-boxes"/></svg></div>
+              <div class="pf-project-tag pf-mono">WEB</div>
+              <h3 class="pf-project-name">Custom Google Gemini Gems Vault</h3>
+              <ul class="pf-project-desc"><li>Built a focused React app for browsing, understanding, and reusing custom Google Gemini Gems.</li><li>Each Gem ships with a clear purpose and a full instruction set, with one-click copy controls to recreate it in Gemini.</li><li>Supports filtering the Gem library by category or search.</li></ul>
+              <div class="pf-project-stack"><span class="pf-chip">React</span></div>
+              <div class="pf-project-links">
+                <a class="pf-project-link" href="https://github.com/Adi432144" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+                <a class="pf-project-link pf-project-link-demo" href="https://custom-google-gemini-gems.onrender.com/" target="_blank" rel="noreferrer"><svg class="icon" width="14" height="14" aria-hidden="true"><use href="#i-external"/></svg> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-reveal pf-project-card" style="--card-accent:#5EEAD4">
+            <div class="pf-project-top"></div>
+            <div class="pf-project-body">
+              <div class="pf-project-icon"><svg class="icon" width="19" height="19" aria-hidden="true"><use href="#i-globe"/></svg></div>
+              <div class="pf-project-tag pf-mono">WEB</div>
+              <h3 class="pf-project-name">FIFA World Cup Database (FIFAWCDB)</h3>
+              <ul class="pf-project-desc"><li>Built a fully responsive FIFA World Cup database covering every tournament from 1930 to 2022.</li><li>Surfaced hosts, winners, runners-up, final scores, and team participation trends across decades.</li><li>Focused on clean UI and efficient data visualization for quick access to historical stats.</li></ul>
+              <div class="pf-project-stack"><span class="pf-chip">HTML5</span><span class="pf-chip">CSS3</span><span class="pf-chip">JavaScript</span></div>
+              <div class="pf-project-links">
+                <a class="pf-project-link" href="https://github.com/Adi432144/FIFAWCDB-COMPLETE" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+                <a class="pf-project-link pf-project-link-demo" href="https://fifawcdb-complete.onrender.com" target="_blank" rel="noreferrer"><svg class="icon" width="14" height="14" aria-hidden="true"><use href="#i-external"/></svg> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-reveal pf-project-card" style="--card-accent:#FF8A4C">
+            <div class="pf-project-top"></div>
+            <div class="pf-project-body">
+              <div class="pf-project-icon"><svg class="icon" width="19" height="19" aria-hidden="true"><use href="#i-boxes"/></svg></div>
+              <div class="pf-project-tag pf-mono">FULL-STACK</div>
+              <h3 class="pf-project-name">Sport Store E-Commerce Website</h3>
+              <ul class="pf-project-desc"><li>Architected an interactive full-stack solution using C# and CSHTML for server-side logic and modular rendering.</li><li>Implemented shopping cart and user authentication features for state management.</li></ul>
+              <div class="pf-project-stack"><span class="pf-chip">C#</span><span class="pf-chip">CSHTML</span><span class="pf-chip">CSS</span><span class="pf-chip">JavaScript</span></div>
+              <div class="pf-project-links">
+                <a class="pf-project-link" href="https://github.com/Adi432144/SPORT-STORE-WITH-C-BACKEND" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pf-reveal pf-project-card" style="--card-accent:#B79CFF">
+            <div class="pf-project-top"></div>
+            <div class="pf-project-body">
+              <div class="pf-project-icon"><svg class="icon" width="19" height="19" aria-hidden="true"><use href="#i-gamepad"/></svg></div>
+              <div class="pf-project-tag pf-mono">MOBILE / GAME</div>
+              <h3 class="pf-project-name">Animal Matching Game</h3>
+              <ul class="pf-project-desc"><li>Built a cross-platform mobile app with an asynchronous game loop for real-time user interactions.</li><li>Engineered a pattern-recognition matching engine with dynamic time-scaling for difficulty balance.</li><li>Used MVVM architecture to decouple game logic from UI for smooth, responsive touch events.</li></ul>
+              <div class="pf-project-stack"><span class="pf-chip">.NET MAUI</span><span class="pf-chip">C#</span><span class="pf-chip">XAML</span></div>
+              <div class="pf-project-links">
+                <a class="pf-project-link" href="https://github.com/Adi432144/ANIMAL-MATCH-MAKING-GAME-USING-C-" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="14" height="14" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. CONTACT -->
+      <section id="contact" class="pf-section">
+        <div class="pf-reveal pf-section-head">
+          <span class="pf-section-tag pf-mono">05</span>
+          <h2 class="pf-section-title">Contact</h2>
+        </div>
+
+        <div class="pf-reveal pf-contact-panel">
+          <h3 class="pf-contact-title">Let's build something.</h3>
+          <p class="pf-contact-sub">
+            Open to internships and entry-level roles in web or game development. Reach out any time —
+            I usually reply within a day.
+          </p>
+          <div class="pf-contact-grid">
+            <a class="pf-contact-item" href="mailto:mdadiprivate31@gmail.com"><svg class="icon" width="15" height="15" aria-hidden="true"><use href="#i-mail"/></svg> mdadiprivate31@gmail.com</a>
+            <span class="pf-contact-item"><svg class="icon" width="15" height="15" aria-hidden="true"><use href="#i-map-pin"/></svg> Etawah, Uttar Pradesh, India</span>
+            <a class="pf-contact-item" href="https://linkedin.com/in/mohammad-adi-748109306" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="15" height="15" aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn</a>
+            <a class="pf-contact-item" href="https://github.com/Adi432144" target="_blank" rel="noreferrer"><svg class="icon icon-fill" width="15" height="15" aria-hidden="true"><use href="#i-github"/></svg> GitHub</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 7. FOOTER -->
+    <footer class="pf-footer">
+      © 2026 Mohammad Adi — built with HTML &amp; CSS
+    </footer>
+  </div>
+
+</body>
+</html>
