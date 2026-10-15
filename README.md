@@ -1,52 +1,100 @@
-# Portfolio Website (HTML & CSS Version)
+# ⚡ Mohammad Adi — Developer Portfolio
 
-An inspector-themed personal portfolio website built with clean HTML5 and CSS3[cite: 2, 3]. It showcases projects, technical skills, internship experience, certifications, and educational background with a dark, developer-centric UI inspired by code editors and game development inspectors[cite: 1, 2, 3].
-
-## Live Demo
-
-- **Portfolio Site:** [View Portfolio](https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION)[cite: 1]
+An enterprise-ready, inspector-themed personal portfolio built with pure HTML5 and CSS3[cite: 2, 3]. Engineered with a dark, high-contrast aesthetic inspired by modern game engine inspectors (Unity) and terminal interfaces[cite: 1, 2, 3]. It highlights full-stack web applications, game engines, AI platform builds, internships, and verified credentials[cite: 2].
 
 ---
 
-## Features
+## 🚀 Live Access & Links
 
-- **Inspector UI Theme:** Designed with a Unity-inspired GameObject inspector layout and embedded terminal status components.
-- **Pure HTML/CSS:** Light, fast, and standalone layout utilizing inline SVG sprites for vector icons without JavaScript overhead.
-- **Responsive Layout:** Responsive sidebar navigation that transitions to a sticky top menu bar on smaller viewports and mobile screens[cite: 3].
-- **Interactive Experience & Project Cards:** Structured cards displaying project stacks, direct code links, live demo links, and internship highlights[cite: 2, 3].
-- **Certifications & Education:** Itemized list of certifications with GitHub verification links alongside an interactive timeline layout[cite: 2, 3].
+| Asset | Link |
+| :--- | :--- |
+| 🌐 **Repository** | [PORTFOLIO-HTML-CSS-VERSION on GitHub](https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION)[cite: 1] |
+| 📜 **Certifications** | [Verified Certificates Vault](https://github.com/Adi432144/CERTIFICATE)[cite: 2] |
+| 👔 **LinkedIn** | [Mohammad Adi Profile](https://linkedin.com/in/mohammad-adi-748109306)[cite: 2] |
+
+---
+
+## Key Highlights
+
+- **Inspector Component UI:** Modeled after IDEs and game editor panels with real-time CSS pulse status badges and terminal simulation blocks[cite: 2, 3].
+- **Zero-JS Dependency Architecture:** Built exclusively with semantic HTML5 and vector SVG symbol sprites for zero script latency and maximum security[cite: 2].
+- **Adaptive Responsive Layout:** Features a fixed sidebar navigation for desktop screens that smoothly transitions into an elevated sticky navigation bar on mobile viewports[cite: 3].
+- **Performance Optimized:** Employs CSS custom properties, system font fallbacks, hardware-accelerated transitions, and dynamic glassmorphism effects[cite: 3].
 
 ---
 
 ## Tech Stack
 
-- **Markup:** HTML5 (Semantic Structure & SVG Sprite System)
-- **Styling:** CSS3 (Flexbox, CSS Grid, Custom Variables, Fluid Typography, Animations)[cite: 3]
-- **Typography:** JetBrains Mono & Inter via Google Fonts[cite: 2, 3]
+```
+   Front-End        Styling & Layout       Asset Architecture
+┌─────────────┐    ┌─────────────────┐    ┌──────────────────┐
+│  HTML5      │    │  CSS3 Grid      │    │ Inline SVG       │
+│  Semantic   │ ──►│  Flexbox        │ ──►│ Symbol Sprites   │
+│  Structure  │    │  Variables      │    │ Google Fonts     │
+└─────────────┘    └─────────────────┘    └──────────────────┘
+```[cite: 2, 3]
+
+- **Markup:** HTML5 (WCAG compliant semantic structures)[cite: 2]
+- **Styling:** CSS3 (CSS Grid, Flexbox, Custom Design Tokens, CSS Keyframes)[cite: 3]
+- **Typography:** `JetBrains Mono` (Code/Labels) & `Inter` (Body Prose)[cite: 2, 3]
 
 ---
 
-## Project Structure
+## Core Sections Overview
 
-```text
-├── index.html   # Main HTML file with structured sections and inline SVG sprite sheet
-└── style.css    # Global stylesheet defining layout, themes, responsiveness, and animations
-```[cite: 1, 2, 3]
+### 1. Game Engine Inspector (`#home`)
+Displays dynamic profile data formatted as engine parameters (`TRANSFORM`, `TAGS`, `COMPONENTS`) alongside an animated initial boot terminal screen[cite: 2].
+
+### 2. About & Experience Timeline (`#about`)
+- **Education:** Timeline covering B.Tech CSE (Integral University) and Intermediate studies[cite: 2].
+- **Internships:** Formatted executable terminal shell cards (`./run experience/...`) detailing work at **EBTS** (Unity VR/AR), **E-Train** (ML predictive modeling), and **Zidio Development** (Full-Stack Web/AI)[cite: 2].
+
+### 3. Technical Skills & Certifications (`#skills`)
+- Categorized chip displays for languages (C, C++, C#, Python, JS, SQL), engines (Unity, .NET MAUI), web, and dev tools[cite: 2].
+- Spoken language proficiency tracks (Hindi, English, Japanese)[cite: 2].
+- Itemized grid displaying 15+ verified certifications with single-click GitHub repository proof verification[cite: 2].
+
+### 4. Featured Projects (`#projects`)
+
+| Project Name | Stack | Description | Links |
+| :--- | :--- | :--- | :--- |
+| **IntellMeet** | React 18, Node.js, WebRTC, Socket.IO, OpenAI | AI collaboration platform with real-time video, automated transcriptions, and summary intelligence[cite: 2]. | [Code](https://github.com/Adi432144) · [Live Demo](https://intellmeet-ai-powered-enterprise.onrender.com/)[cite: 2] |
+| **Gemini Gems Vault** | React, Custom Prompts | Catalog platform for browsing, copying, and deploying custom Google Gemini prompt system instructions[cite: 2]. | [Code](https://github.com/Adi432144) · [Live Demo](https://custom-google-gemini-gems.onrender.com/)[cite: 2] |
+| **FIFA World Cup DB** | HTML5, CSS3, JavaScript | Interactive historical data portal tracking World Cup tournaments from 1930 to 2022[cite: 2]. | [Code](https://github.com/Adi432144/FIFAWCDB-COMPLETE) · [Live Demo](https://fifawcdb-complete.onrender.com)[cite: 2] |
+| **Sport Store E-Commerce**| C#, CSHTML, CSS, JS | Server-side rendered full-stack web application featuring user auth and persistent shopping cart logic[cite: 2]. | [Code](https://github.com/Adi432144/SPORT-STORE-WITH-C-BACKEND)[cite: 2] |
+| **Animal Matching Game** | .NET MAUI, C#, XAML | Cross-platform mobile game driven by an MVVM engine and real-time asynchronous loop logic[cite: 2]. | [Code](https://github.com/Adi432144/ANIMAL-MATCH-MAKING-GAME-USING-C-)[cite: 2] |
+
+### 5. Contact Hub (`#contact`)
+Direct connection panel equipped with one-touch email triggers, social channels, and regional location markers[cite: 2].
 
 ---
 
-## Sections Included
-
-1. **Hero / Inspector (`#home`):** Overview, background tags, system status terminal, and quick action buttons.
-2. **About Me (`#about`):** Summary, career interests, education timeline, and detailed experience cards[cite: 2].
-3. **Skills (`#skills`):** Tech stack categorized by languages, web frameworks, tools, soft skills, spoken language levels, and certifications[cite: 2].
-4. **Projects (`#projects`):** Featured projects including *IntellMeet*, *Gemini Gems Vault*, *FIFA World Cup DB*, *Sport Store*, and *Animal Matching Game*[cite: 2].
-5. **Contact (`#contact`):** Links to email, GitHub, LinkedIn, and location details[cite: 2].
-
----
-
-## Getting Started
+## 🛠️ Quick Local Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION.git](https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION.git)
+   git clone https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION.git
+   ```
+
+2. **Navigate into the directory:**
+   ```bash
+   cd PORTFOLIO-HTML-CSS-VERSION
+   ```
+
+3. **Launch in browser:**
+   Open `index.html` directly in any browser or serve via Live Server[cite: 2].
+   ```bash
+   npx serve .
+   ```
+
+---
+
+## 👤 Author
+
+**Mohammad Adi**  
+*Aspiring Web & Game Developer | Computer Science Engineering Student*[cite: 2]
+
+- **Email:** mdadiprivate31@gmail.com[cite: 2]
+- **GitHub:** [@Adi432144](https://github.com/Adi432144)[cite: 2]
+- **LinkedIn:** [Mohammad Adi](https://linkedin.com/in/mohammad-adi-748109306)[cite: 2]
+- **Location:** Etawah, Uttar Pradesh, India[cite: 2]
