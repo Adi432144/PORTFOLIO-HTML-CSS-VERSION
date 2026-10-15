@@ -32,7 +32,7 @@ An enterprise-ready, inspector-themed personal portfolio built with pure HTML5 a
 │  Semantic   │ ──►│  Flexbox        │ ──►│ Symbol Sprites   │
 │  Structure  │    │  Variables      │    │ Google Fonts     │
 └─────────────┘    └─────────────────┘    └──────────────────┘
-```[cite: 2, 3]
+```
 
 - **Markup:** HTML5 (WCAG compliant semantic structures)[cite: 2]
 - **Styling:** CSS3 (CSS Grid, Flexbox, Custom Design Tokens, CSS Keyframes)[cite: 3]
