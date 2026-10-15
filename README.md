@@ -70,7 +70,6 @@ Direct connection panel equipped with one-touch email triggers, social channels,
 ---
 
 ## 🛠️ Quick Local Setup
-
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION.git
