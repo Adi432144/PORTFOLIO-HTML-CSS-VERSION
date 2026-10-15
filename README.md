@@ -8,9 +8,9 @@ An enterprise-ready, inspector-themed personal portfolio built with pure HTML5 a
 
 | Asset | Link |
 | :--- | :--- |
-| 🌐 **Repository** | [PORTFOLIO-HTML-CSS-VERSION on GitHub](https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION)[cite: 1] |
-| 📜 **Certifications** | [Verified Certificates Vault](https://github.com/Adi432144/CERTIFICATE)[cite: 2] |
-| 👔 **LinkedIn** | [Mohammad Adi Profile](https://linkedin.com/in/mohammad-adi-748109306)[cite: 2] |
+| 🌐 **Repository** | [PORTFOLIO-HTML-CSS-VERSION on GitHub](https://github.com/Adi432144/PORTFOLIO-HTML-CSS-VERSION) |
+| 📜 **Certifications** | [Verified Certificates Vault](https://github.com/Adi432144/CERTIFICATE)|
+| 👔 **LinkedIn** | [Mohammad Adi Profile](https://linkedin.com/in/mohammad-adi-748109306) |
 
 ---
 
